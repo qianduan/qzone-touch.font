@@ -20,12 +20,12 @@ font:
 
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
-  fontname: tencent
+  fontname: qq-hd
 
-  fullname: tencent
-  familyname: tencent
+  fullname: qq-hd
+  familyname: qq-hd
 
-  copyright: Copyright (C) 2013 by isux qzone team
+  copyright: Copyright (C) 2013 by tencent cdc
 
   ascent: 850
   descent: 150
