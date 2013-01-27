@@ -1,17 +1,17 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'tencent';
-  src: url('tencent.eot');
-  src: url('tencent.eot?#iefix') format('embedded-opentype'),
-       url('tencent.woff') format('woff'),
-       url('tencent.ttf') format('truetype'),
-       url('tencent.svg#tencent') format('svg');
+  font-family: 'qq-hd';
+  src: url('qq-hd.eot');
+  src: url('qq-hd.eot?#iefix') format('embedded-opentype'),
+       url('qq-hd.woff') format('woff'),
+       url('qq-hd.ttf') format('truetype'),
+       url('qq-hd.svg#qq-hd') format('svg');
   font-weight: normal; font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  font-family: tencent;
+  font-family: qq-hd;
   font-style: normal;
 
   /* font-size: 14px; */
