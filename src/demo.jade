@@ -23,5 +23,7 @@ body
             - var offset = i * chunk_size
             - for (var c = 0; c < chunk_size && glyphs[offset + c]; c++)
               - var g = glyphs[offset + c]
-              - var css_class = meta.css_prefix + (g.css || g.file)
+              - var pre = "icon-"
+              - var css_class = g.css || g.file
+              - var css_class =pre+css_class
               | <li><i class="#{css_class}"></i> #{css_class}</li>

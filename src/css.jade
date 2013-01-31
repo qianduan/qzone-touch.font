@@ -10,7 +10,7 @@
 |   font-weight: normal; font-style: normal;
 | }
 | 
-| [class^="icon-"], [class*=" icon-"] {
+| [class^="qz-"], [class*=" icon-"] {
 |   font-family: #{font.fontname};
 |   font-style: normal;
 | /*  font-size: 14px; */
@@ -26,7 +26,7 @@
 |   height: 24px;
 | }
 | 
-- var to_char = function (code) { if (code > 0xffff) { code -= 0x10000; var surrogate1 = 0xd800 + (code >> 10), surrogate2 = 0xdc00 + (code & 0x3ff); return String.fromCharCode(surrogate1, surrogate2); } else { return String.fromCharCode(code); } }
 - each g in glyphs
-  - var css_class = demo.css_prefix + (g.css || g.file)
+  - var css_class = demo.css_prefix+ (g.css || g.file)
+	- css_class+="qz-"
   | .#{css_class}:before { content: "#{to_char(g.code)}" } /* '\\ #{g.code.toString(16)}' */

@@ -13,9 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   font-family: {{font.fontname}};
   font-style: normal;
-
-  /* font-size: 14px; */
-
   display: inline-block;
   width: 1.1em;
   margin-right: .1em;
@@ -29,5 +26,5 @@
 }
 
 {{#glyphs}}
-.{{meta.css_prefix}}{{css}}:before { content: "{{chr}}"; } /* '{{hex}}' */
+.{{meta.css_prefix}}{-qz-}{{css}}:before { content: "{{chr}}"; } /* '{{hex}}' */
 {{/glyphs}}
