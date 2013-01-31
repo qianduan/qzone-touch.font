@@ -66,7 +66,7 @@ support:
 
 
 html:
-	tpl-render.js --locals config.yml --input ./src/demo/demo.jade --output ./font/demo.html
+	tpl-render.js --locals config.yml --input ./src/demo.jade --output ./font/demo.html
 
 
 gh-pages:
